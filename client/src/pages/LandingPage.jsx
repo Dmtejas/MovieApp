@@ -16,7 +16,7 @@ const LandingPage = () => {
 
   const fetchData = async () => {
     try {
-      const apiResponse = await fetch("http://localhost:3000/api/movies", {
+      const apiResponse = await fetch("https://moviefinder-cgsa.onrender.com/api/movies", {
         method: "GET",
       });
 

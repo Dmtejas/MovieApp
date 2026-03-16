@@ -14,7 +14,7 @@ const IndividualMovies = () => {
   const fetchSingleMovie = async () => {
     try {
       const apiResponse = await fetch(
-        `http://localhost:3000/api/movies/${id.id}`,
+        `https://moviefinder-cgsa.onrender.com/api/movies/${id.id}`,
         {
           method: "GET",
         },
