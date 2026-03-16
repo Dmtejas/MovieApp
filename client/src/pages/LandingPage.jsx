@@ -70,7 +70,7 @@ const LandingPage = () => {
         <div className="grid lg:grid-cols-3 items-center justify-center">
           {data.map((element, index) => {
             return (
-              <div onClick={() => navigate(`/movies/${element._id}`)} className="flex lg:flex-row flex-col m-10 bg-trasparernt items-start transition-all duration-200 hover:scale-110 p-10 shadow-[0_0_25px_rgba(255,255,255,0.2)] rounded-2xl gap-y-5 lg:gap-y-0 lg:gap-x-5 text-xl justify-between">
+              <div onClick={() => navigate(`/movies/${element._id}`)} className="flex lg:flex-row flex-col m-10 bg-trasparernt items-start transition-all duration-200 hover:scale-110 p-10 shadow-[0_0_25px_rgba(255,255,255,0.2)] rounded-2xl gap-y-5 lg:gap-y-0 lg:gap-x-5 text-xl justify-between h-7/8">
                 <div className="flex flex-col gap-y-5">
                   <h3 className="text-3xl">{element.title}</h3>
 
